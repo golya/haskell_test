@@ -1,4 +1,1 @@
-fac 0 = 1 
-fac n = n * fac (n -1)
-
-main = print ( fac 4 )
+main = print ( take 10 (cycle [1,2,3]) )
