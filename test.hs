@@ -1,1 +1,3 @@
-main = print ( take 10 (cycle [1,2,3]) )
+lc = [x*2 | x <- [1..10]]
+
+main = print ( lc )
